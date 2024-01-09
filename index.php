@@ -71,14 +71,7 @@ $words2 = [
         "studenti" => ["pippo", "carlo", "coppola"],
         "argomenti" => ["html", "css", "bootstrap", "javascript", "php"],
     ];
-    
-    
-    // $studenteCasuale = $corsoHackademy['studenti'][array_rand($corsoHackademy['studenti'])];
-    // $argomentoCasuale = $corsoHackademy['argomenti'][array_rand($corsoHackademy['argomenti'])];
-    // $docenteCasuale = $corsoHackademy['docenti'][array_rand($corsoHackademy['docenti'])];
-    
 
-    // echo "Sono $studenteCasuale e sto studiando $argomentoCasuale con $docenteCasuale";
 
     echo 'Sono' . " " . $corsoHackademy['studenti'][1] . " " . 'e sto studiando' . " " . $corsoHackademy['argomenti'][4] . " " . 'con' . " " . $corsoHackademy['docenti'][1];
     
